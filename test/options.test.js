@@ -10,12 +10,12 @@ test("validates and normalizes supported options", () => {
   assert.deepEqual(
     validateOptions({
       presentationMode: [" MODEL "],
-      modelType: ["Plus-Size"],
+      modelType: ["Plus-Size Woman"],
       preservationRules: ['["Keep the torn cuff visible"]'],
     }),
     {
       presentationMode: "model",
-      modelType: "plus-size",
+      modelType: "plus-size woman",
       preservationRules: ["Keep the torn cuff visible"],
     }
   );
