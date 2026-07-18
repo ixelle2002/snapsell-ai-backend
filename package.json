@@ -1,0 +1,22 @@
+{
+  "name": "snapsell-ai-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vercel backend for honest marketplace photo presentation edits.",
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node --test",
+    "deploy": "vercel --prod"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@vercel/blob": "^1.0.0",
+    "formidable": "^3.5.4"
+  },
+  "devDependencies": {
+    "vercel": "^48.0.0"
+  }
+}
